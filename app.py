@@ -52,8 +52,8 @@ def webhook():
 def processRequest(req):
     if req.get("result").get("action") != "Demoapi":
         return {}
-speech="Hello World";
- return {
+    speech="Hello World";
+    return {
         "speech": speech,
         "displayText": speech,
         # "data": data,
